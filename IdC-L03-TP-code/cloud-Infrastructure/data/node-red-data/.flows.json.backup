@@ -1,0 +1,2465 @@
+[
+    {
+        "id": "f6f2187d.f17ca8",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "037aecdc6926ce9a",
+        "type": "mqtt-broker",
+        "name": "IdC",
+        "broker": "mosquitto",
+        "port": "8883",
+        "tls": "22f64c600686688c",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": false,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "f5279b01.b328d8",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "mosquitto",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "1b5d2366b1566d5c",
+        "type": "ui_tab",
+        "name": "Basic Dashboard",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e9d9610e1746e406",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "c2969b15314cd74c",
+        "type": "ui_group",
+        "name": "Col 1",
+        "tab": "1b5d2366b1566d5c",
+        "order": 2,
+        "disp": false,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5f7393e20bbc7adb",
+        "type": "ui_group",
+        "name": "Col 2",
+        "tab": "1b5d2366b1566d5c",
+        "order": 3,
+        "disp": false,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e9c37ed216a74dda",
+        "type": "ui_group",
+        "name": "Col 0",
+        "tab": "1b5d2366b1566d5c",
+        "order": 1,
+        "disp": false,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "532cfb1b1d43ad19",
+        "type": "postgreSQLConfig",
+        "name": "",
+        "host": "postgres",
+        "hostFieldType": "str",
+        "port": "5432",
+        "portFieldType": "num",
+        "database": "internetOfThings",
+        "databaseFieldType": "str",
+        "ssl": "false",
+        "sslFieldType": "bool",
+        "applicationName": "",
+        "applicationNameType": "str",
+        "max": "10",
+        "maxFieldType": "num",
+        "idle": "1000",
+        "idleFieldType": "num",
+        "connectionTimeout": "10000",
+        "connectionTimeoutFieldType": "num",
+        "user": "admin",
+        "userFieldType": "str",
+        "password": "admin",
+        "passwordFieldType": "str"
+    },
+    {
+        "id": "967b89ccfcd5dc21",
+        "type": "global-config",
+        "name": "global-config",
+        "env": []
+    },
+    {
+        "id": "b2b861a27cdb89b0",
+        "type": "flexdash container",
+        "name": "Col 0",
+        "title": "Test",
+        "kind": "StdGrid",
+        "fd_children": "",
+        "tab": "",
+        "min_cols": 1,
+        "max_cols": 20,
+        "unicast": "ignore",
+        "parent": "",
+        "solid": false,
+        "cols": 1,
+        "rows": 1
+    },
+    {
+        "id": "268989bc4b3b4aed",
+        "type": "flexdash container",
+        "name": "Stat-Gauge Demo",
+        "title": "",
+        "kind": "StdGrid",
+        "fd_children": "",
+        "tab": "ace5f0e8a8666233",
+        "min_cols": "1",
+        "max_cols": "20",
+        "parent": "",
+        "solid": false,
+        "cols": "1",
+        "rows": "1"
+    },
+    {
+        "id": "ace5f0e8a8666233",
+        "type": "flexdash tab",
+        "name": "stat-gauge demo",
+        "icon": "mdi-gauge",
+        "title": "",
+        "fd_children": ",268989bc4b3b4aed",
+        "fd": "e8f5aea52ab49500"
+    },
+    {
+        "id": "22f64c600686688c",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "client.crt",
+        "keyname": "client.key",
+        "caname": "ca.crt",
+        "servername": "",
+        "verifyservercert": false,
+        "alpnprotocol": ""
+    },
+    {
+        "id": "c56fe779595b1722",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 2,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "cd53fd41556e8ab0",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 4,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "4867d63ff144f2fe",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 5,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "fd36c1407f6d41fa",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 6,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "85e729820efa92ab",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 7,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "132f980ab4b7cf06",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 8,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "2a811d29cd4ad7e3",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 9,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "be8c113dbe2352cb",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 10,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "bc473c8bd2de3a74",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "09deec535c179422",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2b6ec46a3434f396",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "be38f0c33bec6eca",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "188329df788d16fb",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "18dee08c5228105f",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f91f738c48dbd851",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8e9e189d2097e7a9",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 19,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3ab77f82534063bb",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6dc3fa16dd392823",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 22,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "72528f71062f959d",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 23,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f8be08f703687d01",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 24,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "542d7aaf58b6b9b2",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 25,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "eb385eef7867581e",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 26,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5c6a00d6f12cfae1",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 27,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4a72a1238c3c66f2",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 28,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6fa44c4d37d539dc",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 29,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4f884ad9afa30514",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 32,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d1d3a6b6ac34db79",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 33,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "30864f9079e86380",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 34,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "cba1b0c627a894b7",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 35,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c895307bd303e1be",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 36,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "60f318fcce259d9c",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 37,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "78d2c4a39fb47fd8",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "e9c37ed216a74dda",
+        "order": 38,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "05ed93e86fb63cd8",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "c2969b15314cd74c",
+        "order": 3,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "de395e5f581446e7",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "c2969b15314cd74c",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "24c9bda423b88c17",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "c2969b15314cd74c",
+        "order": 5,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "bbcd9dd558f8664b",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "c2969b15314cd74c",
+        "order": 6,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "c96f4a16b6653163",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "c2969b15314cd74c",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "015bc1247d0023ee",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "c2969b15314cd74c",
+        "order": 9,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "386014b962dfa6bc",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "c2969b15314cd74c",
+        "order": 10,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "6dfbbb5b5066984e",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "c2969b15314cd74c",
+        "order": 11,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "4144025b3cbbd36f",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "c2969b15314cd74c",
+        "order": 13,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "d6cb470a37ba8927",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "c2969b15314cd74c",
+        "order": 14,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "b308e4b4e0b26e4e",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "c2969b15314cd74c",
+        "order": 15,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "6c2a703a1654c7a4",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "c2969b15314cd74c",
+        "order": 16,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "228a47e3234950f0",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "c2969b15314cd74c",
+        "order": 18,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "d098f28e5e1699dd",
+        "type": "ui_spacer",
+        "z": "f6f2187d.f17ca8",
+        "name": "spacer",
+        "group": "5f7393e20bbc7adb",
+        "order": 5,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "3cc11d24.ff01a2",
+        "type": "comment",
+        "z": "f6f2187d.f17ca8",
+        "name": "WARNING: please check you have started this container with a volume that is mounted to /data\\n otherwise any flow changes are lost when you redeploy or upgrade the container\\n (e.g. upgrade to a more recent node-red docker image).\\n  If you are using named volumes you can ignore this warning.\\n Double click or see info side panel to learn how to start Node-RED in Docker to save your work",
+        "info": "\nTo start docker with a bind mount volume (-v option), for example:\n\n```\ndocker run -it -p 1880:1880 -v /home/user/node_red_data:/data --name mynodered nodered/node-red\n```\n\nwhere `/home/user/node_red_data` is a directory on your host machine where you want to store your flows.\n\nIf you do not do this then you can experiment and redploy flows, but if you restart or upgrade the container the flows will be disconnected and lost. \n\nThey will still exist in a hidden data volume, which can be recovered using standard docker techniques, but that is much more complex than just starting with a named volume as described above.",
+        "x": 350,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "53138a095f2d81f7",
+        "type": "mqtt in",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "topic": "idc/FC23",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "037aecdc6926ce9a",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 220,
+        "y": 680,
+        "wires": [
+            [
+                "3db1566a76e60b5a"
+            ]
+        ]
+    },
+    {
+        "id": "10554332213def56",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "Create Table",
+        "query": "CREATE TABLE IF NOT EXISTS product_data (\n  -- Define a column named id as a SERIAL type, which serves as the primary key\n id SERIAL PRIMARY KEY, -- SERIAL data type automatically generates unique integer values for each row inserted into the table\n  \n  -- Define a column named name to store product names as variable-length character strings with a maximum length of 100 characters, ensuring it's not null\n  name varchar(100) NOT NULL,\n  \n  -- Define a column named price to store product prices, ensuring it's not null\n price int NOT NULL,\n  \n  -- Define a column named stock to store product stock levels, ensuring it's not null\n stock int NOT NULL\n);",
+        "postgreSQLConfig": "532cfb1b1d43ad19",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 630,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "531fa678df6eebe0",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 480,
+        "y": 320,
+        "wires": [
+            [
+                "10554332213def56"
+            ]
+        ]
+    },
+    {
+        "id": "5d09d54c8ee83c79",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "function 1",
+        "func": "// Parse the incoming JSON message\nlet data = JSON.parse(msg.payload);\n\n// Destructure the properties from the data (MQTT payload)\nconst { timestamp, acceleration_x, acceleration_y, acceleration_z, gyro_x, gyro_y, gyro_z } = data;\n\n// Prepare an array of parameters to match placeholders in the SQL query\nmsg.params = [timestamp, acceleration_x, acceleration_y, acceleration_z, gyro_x, gyro_y, gyro_z];\n\n// Set msg.topic to indicate that this message carries query parameters\nmsg.topic = \"INSERT INTO sensor_data (timestamp, acceleration_x, acceleration_y, acceleration_z, gyro_x, gyro_y, gyro_z) VALUES ($1, $2, $3, $4, $5, $6, $7);\";\n\n// Return the message object to pass it on to the next node (PostgreSQL node)\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3f9df5d8c0acda3c",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "Insert Data",
+        "query": "INSERT INTO sensor_data (timestamp, acceleration_x, acceleration_y, acceleration_z, gyro_x, gyro_y, gyro_z)\nVALUES ($1, $2, $3, $4, $5, $6, $7);\n",
+        "postgreSQLConfig": "532cfb1b1d43ad19",
+        "split": false,
+        "rowsPerMsg": "1",
+        "outputs": 1,
+        "x": 910,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6d2bede10c79b721",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "Insert",
+        "query": "INSERT INTO sensor_data (timestamp, acceleration_x, acceleration_y, acceleration_z, gyro_x, gyro_y, gyro_z)\nVALUES ('2024-10-17 18:57:00+00', 0.123, 0.456, 0.789, 1.23, 4.56, 7.89);",
+        "postgreSQLConfig": "532cfb1b1d43ad19",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 930,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4f6ecc2d3975cde4",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 800,
+        "y": 320,
+        "wires": [
+            [
+                "6d2bede10c79b721"
+            ]
+        ]
+    },
+    {
+        "id": "ce50a8d461257fdf",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "getFirstNameInjector",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 840,
+        "wires": [
+            [
+                "3673c61d155c386b"
+            ]
+        ]
+    },
+    {
+        "id": "68244e75a3d353e9",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "e9c37ed216a74dda",
+        "order": 1,
+        "width": 10,
+        "height": 1,
+        "name": "",
+        "label": "Welcome Back, ",
+        "format": "{{msg.payload}}!!",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 900,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "3673c61d155c386b",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "query": "SELECT first_name FROM user_info LIMIT 1;\n",
+        "postgreSQLConfig": "532cfb1b1d43ad19",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 370,
+        "y": 840,
+        "wires": [
+            [
+                "6860db43f52c0ff1"
+            ]
+        ]
+    },
+    {
+        "id": "6860db43f52c0ff1",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "getName",
+        "func": "if (msg.payload && msg.payload.length > 0) {\n    // Extract the first_name from the first row of the result\n    msg.payload = msg.payload[0].first_name;\n} else {\n    msg.payload = \"No user found\";\n}\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 840,
+        "wires": [
+            [
+                "68244e75a3d353e9"
+            ]
+        ]
+    },
+    {
+        "id": "357f7ee9c70974b6",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 1100,
+        "wires": [
+            [
+                "ac9c378a5f533575",
+                "9b60e111d950ea35",
+                "19ba06160bb5bb5b",
+                "9f6cff9cf5441985",
+                "891762ba429bbd11",
+                "66638caf809fcd68",
+                "094f6fc509e49422",
+                "dd167814a1941b56",
+                "0a615a2e5630831c",
+                "858cfe0b2045a571"
+            ]
+        ]
+    },
+    {
+        "id": "60eb7847a87c5097",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "GetActivityTimeWeek",
+        "func": "// Initialize arrays for walking and running times\nlet walkingTimes = new Array(7).fill(0);  // Initialize times for 7 days (Monday-Sunday)\nlet runningTimes = new Array(7).fill(0);  // Initialize times for 7 days (Monday-Sunday)\nlet daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']; // Fixed order: Monday to Sunday\n\n// Process query results\nmsg.payload.forEach(row => {\n    let dayIndex = parseInt(row.day_of_week);  // Directly use the day_of_week from the query\n    walkingTimes[dayIndex] += parseFloat(row.walking_time) || 0;\n    runningTimes[dayIndex] += parseFloat(row.running_time) || 0;\n});\n\n// Format the output for the chart or graph\nmsg.payload = [{\n    \"series\": [\"Walking Time\", \"Running Time\"],\n    \"data\": [walkingTimes, runningTimes],\n    \"labels\": daysOfWeek // Fixed order: Monday to Sunday\n}];\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 1120,
+        "wires": [
+            [
+                "d24108690f9f04b7"
+            ]
+        ]
+    },
+    {
+        "id": "d59640ea2235f044",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "GetCaloriesWeek",
+        "func": "// Extract the query results (data from PostgreSQL node)\nlet rows = msg.payload; // Assuming rows are in msg.payload\n\n// Initialize arrays to store the total calories for walking and running per day of the week\nlet walkingCaloriesData = Array(7).fill(0);  // Monday (0) to Sunday (6)\nlet runningCaloriesData = Array(7).fill(0);  // Monday (0) to Sunday (6)\nlet daysOfWeek = [\"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\", \"Sunday\"];\n\n// Loop through the rows and aggregate the calories\nrows.forEach(row => {\n    let dayIndex = row.day_of_week; // Adjusted day_of_week from the query (0=Monday, 6=Sunday)\n\n    // Add calories to the respective activity type (walking or running)\n    walkingCaloriesData[dayIndex] += row.walking_calories || 0;\n    runningCaloriesData[dayIndex] += row.running_calories || 0;\n});\n\n// Format the data for output in the required format\nmsg.payload = [{\n    \"series\": [\"Walking\", \"Running\"],\n    \"data\": [walkingCaloriesData, runningCaloriesData],\n    \"labels\": daysOfWeek  // Monday-Sunday labels\n}];\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 1240,
+        "wires": [
+            [
+                "88bac74caeddf2e3"
+            ]
+        ]
+    },
+    {
+        "id": "e69e3eb13c8fb698",
+        "type": "ui_gauge",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "e9c37ed216a74dda",
+        "order": 3,
+        "width": 4,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Calories Burned (Today)",
+        "label": "Calories",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "450",
+        "colors": [
+            "#ca3838",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "5",
+        "seg2": "300",
+        "diff": false,
+        "className": "",
+        "x": 930,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "853dc7efcf032694",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "GetActivityTimeToday",
+        "func": "// Assuming msg.payload contains the query results for the current day\nlet walkingTime = 0;\nlet runningTime = 0;\n\n// Loop through query results and extract walking and running time\nmsg.payload.forEach(row => {\n    walkingTime = row.walking_time || 0;  // Walking time in minutes\n    runningTime = row.running_time || 0;  // Running time in minutes\n});\n\n// Format the output for the chart visualization\nmsg.payload = [{\n    \"series\": [\"Running Time\", \"Walking Time\"],\n    \"data\": [[runningTime], [walkingTime]],\n    \"labels\": [\"Minutes\"]\n}];\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 1360,
+        "wires": [
+            [
+                "dc815b006918b434"
+            ]
+        ]
+    },
+    {
+        "id": "dc815b006918b434",
+        "type": "ui_chart",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "e9c37ed216a74dda",
+        "order": 12,
+        "width": 8,
+        "height": 4,
+        "label": "Activity Time (Today)",
+        "chartType": "horizontalBar",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 920,
+        "y": 1360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b6a946a8b4f3cf66",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "GetDistanceRunWalkToday",
+        "func": "// Assuming msg.payload contains the query results as an array of rows\nlet walkingDistance = 0;\nlet runningDistance = 0;\n\n// Loop through query results\nmsg.payload.forEach(row => {\n    // Add distances for walking and running\n    walkingDistance += row.walking_distance || 0;\n    runningDistance += row.running_distance || 0;\n});\n\n// Format the output as required for the chart or other visualization\nmsg.payload = [{\n    \"series\": [\"Running Distance\", \"Walking Distance\"],\n    \"data\": [[runningDistance], [walkingDistance]],\n    \"labels\": [\"Meters\"]\n}];\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 1280,
+        "wires": [
+            [
+                "1f081132a0c98d34"
+            ]
+        ]
+    },
+    {
+        "id": "1f081132a0c98d34",
+        "type": "ui_chart",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "e9c37ed216a74dda",
+        "order": 21,
+        "width": 8,
+        "height": 4,
+        "label": "Running and Walking Distance (Today)",
+        "chartType": "horizontalBar",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 970,
+        "y": 1280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "88bac74caeddf2e3",
+        "type": "ui_chart",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "c2969b15314cd74c",
+        "order": 2,
+        "width": 8,
+        "height": 4,
+        "label": "Calories Burned (Week)",
+        "chartType": "bar",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 930,
+        "y": 1240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d24108690f9f04b7",
+        "type": "ui_chart",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "c2969b15314cd74c",
+        "order": 7,
+        "width": 8,
+        "height": 4,
+        "label": "Activity Time (Week)",
+        "chartType": "bar",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 920,
+        "y": 1120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "990a07419a3d1314",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "GetDistanceRunWalkWeek",
+        "func": "// Initialize arrays for walking and running distances\nlet walkingDistances = new Array(7).fill(0);  // Initialize distances for 7 days (Monday-Sunday)\nlet runningDistances = new Array(7).fill(0);  // Initialize distances for 7 days (Monday-Sunday)\nlet daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']; // Fixed order: Monday to Sunday\n\n// Process query results\nmsg.payload.forEach(row => {\n    let dayIndex = parseInt(row.day_of_week);  // Directly use the day_of_week from the query\n    walkingDistances[dayIndex] += parseFloat(row.walking_distance) || 0;\n    runningDistances[dayIndex] += parseFloat(row.running_distance) || 0;\n});\n\n// Format the output for the chart or graph\nmsg.payload = [{\n    \"series\": [\"Walking Distance\", \"Running Distance\"],\n    \"data\": [walkingDistances, runningDistances],\n    \"labels\": daysOfWeek // Fixed order: Monday to Sunday\n}];\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 1080,
+        "wires": [
+            [
+                "3532ce5518db8d16"
+            ]
+        ]
+    },
+    {
+        "id": "3532ce5518db8d16",
+        "type": "ui_chart",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "c2969b15314cd74c",
+        "order": 12,
+        "width": 8,
+        "height": 4,
+        "label": "Running and Walking Distance (Week)",
+        "chartType": "bar",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 970,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0b05e576ada4a180",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "GetDistanceRunWalkYear",
+        "func": "// Assuming the rows from the query are in msg.payload\nlet rows = msg.payload;\n\n// Initialize arrays to store the walking and running distances for each month\nlet walkingDistances = new Array(12).fill(0);  // 12 months: January to December\nlet runningDistances = new Array(12).fill(0);  // 12 months: January to December\nlet monthsOfYear = [\"Jan\", \"Feb\", \"Mar\", \"Apr\", \"May\", \"Jun\", \"Jul\", \"Aug\", \"Sep\", \"Oct\", \"Nov\", \"Dec\"];\n\n// Loop through the rows and calculate distances\nfor (let i = 0; i < rows.length; i++) {\n    let row = rows[i];\n    let walkingDistance = row.walking_distance || 0;  // Walking distance for the current row\n    let runningDistance = row.running_distance || 0;  // Running distance for the current row\n    let month = row.month - 1;  // Convert month (1-12) to array index (0-11)\n\n    // Add the distances to the corresponding month\n    walkingDistances[month] += walkingDistance;\n    runningDistances[month] += runningDistance;\n}\n\n// Format the data for output in the required format\nmsg.payload = [{\n    \"series\": [\"Running Meters\", \"Walking Meters\"],\n    \"data\": [runningDistances, walkingDistances],\n    \"labels\": monthsOfYear\n}];\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 1020,
+        "wires": [
+            [
+                "36863b6e8b5e9c72"
+            ]
+        ]
+    },
+    {
+        "id": "36863b6e8b5e9c72",
+        "type": "ui_chart",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "5f7393e20bbc7adb",
+        "order": 4,
+        "width": 8,
+        "height": 4,
+        "label": "Running and Walking Distance (Year)",
+        "chartType": "bar",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 970,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5454ca7f456139f5",
+        "type": "ui_chart",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "5f7393e20bbc7adb",
+        "order": 3,
+        "width": 8,
+        "height": 4,
+        "label": "Activity Time (Year)",
+        "chartType": "bar",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 910,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e611fef0fbbf60cc",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "GetActivityTimeYear",
+        "func": "// Assuming msg.payload contains the query results as an array of rows\nlet walkingMinutes = [];\nlet runningMinutes = [];\nlet months = [\n    'January', 'February', 'March', 'April', 'May', 'June',\n    'July', 'August', 'September', 'October', 'November', 'December'\n];\n\n// Initialize an array to store total minutes for each month\nlet walkingTimeByMonth = new Array(12).fill(0);\nlet runningTimeByMonth = new Array(12).fill(0);\n\n// Loop through query results\nmsg.payload.forEach(row => {\n    let monthIndex = parseInt(row.month) - 1; // Convert month string (e.g., '11') to 0-based index\n\n    // Add walking and running times to the corresponding month\n    walkingTimeByMonth[monthIndex] += parseFloat(row.walking_time) || 0;\n    runningTimeByMonth[monthIndex] += parseFloat(row.running_time) || 0;\n});\n\n// Format the output as required\nmsg.payload = [{\n    \"series\": [\"Walking Minutes\", \"Running Minutes\"],\n    \"data\": [walkingTimeByMonth, runningTimeByMonth],\n    \"labels\": months\n}];\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 960,
+        "wires": [
+            [
+                "5454ca7f456139f5"
+            ]
+        ]
+    },
+    {
+        "id": "115a5cfcd5d76cc9",
+        "type": "ui_chart",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "5f7393e20bbc7adb",
+        "order": 2,
+        "width": 8,
+        "height": 4,
+        "label": "Calories Burned (Year)",
+        "chartType": "bar",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 920,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f3cbfb9c432f5699",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "GetCaloriesYear",
+        "func": "// Extract the query results (data from PostgreSQL node)\nlet rows = msg.payload; // Assuming rows are in msg.payload\n\n// Initialize arrays to store the total calories for walking and running per month\nlet walkingCaloriesData = Array(12).fill(0);\nlet runningCaloriesData = Array(12).fill(0);\nlet months = [\"Jan\", \"Feb\", \"Mar\", \"Apr\", \"May\", \"Jun\", \"Jul\", \"Aug\", \"Sep\", \"Oct\", \"Nov\", \"Dec\"];\n\n// Loop through the rows and aggregate the calories\nfor (let i = 0; i < rows.length; i++) {\n    let row = rows[i];\n    let monthIndex = row.month - 1; // Convert month (1-12) to array index (0-11)\n\n    // Add calories to the respective activity type (walking or running)\n    walkingCaloriesData[monthIndex] += row.walking_calories;\n    runningCaloriesData[monthIndex] += row.running_calories;\n}\n\n// Format the data for output in the required format\nmsg.payload = [{\n    \"series\": [\"Walking\", \"Running\"],\n    \"data\": [walkingCaloriesData, runningCaloriesData],\n    \"labels\": months\n}];\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 900,
+        "wires": [
+            [
+                "115a5cfcd5d76cc9"
+            ]
+        ]
+    },
+    {
+        "id": "5d4a5e2c391ed22e",
+        "type": "ui_gauge",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "e9c37ed216a74dda",
+        "order": 30,
+        "width": 4,
+        "height": 4,
+        "gtype": "wave",
+        "title": "Distance (Today) Meters",
+        "label": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "20000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 930,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "b7f5d7aea82e7f10",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "43200",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 1540,
+        "wires": [
+            [
+                "0e4e19045fc1865d"
+            ]
+        ]
+    },
+    {
+        "id": "f3c2135f5ea9820c",
+        "type": "ui_chart",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "e9c37ed216a74dda",
+        "order": 39,
+        "width": 10,
+        "height": 4,
+        "label": "Weight",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "Y-M-D",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 870,
+        "y": 1540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5778fe58e811bb69",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "query": "DO $$ \nDECLARE\n    base_date DATE;\n    activity_status INT;\n    random_day INT;\n    random_time INTERVAL;\n    i INT;\n    month INT;\n    random_entries INT;\n    weight DOUBLE PRECISION := 85;  -- Example weight (kg)\n    height DOUBLE PRECISION := 184;  -- Example height (cm)\n    speed DOUBLE PRECISION := 1.36;  -- Example speed (m/s)\n    calories DOUBLE PRECISION;\n    meters_per_second DOUBLE PRECISION := 1.36;\nBEGIN\n    -- Loop through each month of the year\n    FOR month IN 1..12 LOOP\n        -- Set the base date as the first day of the current month\n        base_date := '2024-' || LPAD(month::TEXT, 2, '0') || '-01';\n\n        -- Generate a random number of entries for the current month (e.g., between 5000 and 15000 entries)\n        random_entries := FLOOR(RANDOM() * (15000 - 5000 + 1)) + 5000;\n\n        -- Loop to insert random number of rows for the current month\n        FOR i IN 1..random_entries LOOP\n            -- Generate a random activity status (either 0 or 1)\n            activity_status := FLOOR(RANDOM() * 2);\n\n            -- Adjust speed based on activity status (e.g., double speed for running activity)\n            IF activity_status = 1 THEN\n                speed := LEAST(speed * 2, 10);  -- Limit max speed to 10 m/s\n                meters_per_second := 2.72;  -- Ensure meters_per_second is adjusted for running\n            ELSE\n                meters_per_second := 1.36;  -- Reset to normal walking speed\n            END IF;\n\n            -- Calculate distance (meters = speed * time)\n            -- We calculate a random time duration between 5 minutes and 2 hours (in seconds)\n            \n\n            -- Calculate calories, ensuring height is non-zero\n            IF height > 0 THEN\n                calories := (0.035 * weight) + (POWER(meters_per_second, 2) / height) * 0.029 * weight;\n                calories := LEAST(calories, 10000);  -- Limit maximum calories to 10,000\n            ELSE\n                calories := 0;  -- Default to 0 if height is invalid\n            END IF;\n\n            -- Generate a random day of the month (e.g., for January 1st to 31st)\n            random_day := FLOOR(RANDOM() * (EXTRACT(DAY FROM (base_date + INTERVAL '1 month' - INTERVAL '1 day'))::INT)) + 1;\n\n            -- Generate a random time within the day (0 to 23:59:59)\n            random_time := INTERVAL '1 second' * (FLOOR(RANDOM() * 86400));\n\n            -- Insert the data into the table with the generated random timestamp and calculated calories\n            INSERT INTO public.activity_table (activity_time, activity_status,weight,height,meters_per_second)\n            VALUES (\n                base_date + (random_day - 1) * INTERVAL '1 day' + random_time, \n                activity_status,\n                weight,\n                height,\n                meters_per_second\n            );\n        END LOOP;\n    END LOOP;\nEND $$;\n",
+        "postgreSQLConfig": "532cfb1b1d43ad19",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 420,
+        "y": 1820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "55d9973306304460",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 1820,
+        "wires": [
+            [
+                "5778fe58e811bb69"
+            ]
+        ]
+    },
+    {
+        "id": "9f6cff9cf5441985",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "query": "SELECT \n    EXTRACT(MONTH FROM activity_time) AS month,  -- Extract the month from the activity time\n    SUM(CASE WHEN activity_status = 0 THEN 1 ELSE 0 END) / 60.0 AS walking_time,  -- Count of walking events (activity_status = 0), divided by 60 for minutes\n    SUM(CASE WHEN activity_status = 1 THEN 1 ELSE 0 END) / 60.0 AS running_time   -- Count of running events (activity_status = 1), divided by 60 for minutes\nFROM \n    activity_table\nWHERE \n    EXTRACT(YEAR FROM activity_time) = EXTRACT(YEAR FROM CURRENT_DATE)  -- Use the current year dynamically\nGROUP BY \n    EXTRACT(MONTH FROM activity_time)  -- Group by month\nORDER BY \n    month;  -- Order results by month\n",
+        "postgreSQLConfig": "532cfb1b1d43ad19",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 370,
+        "y": 960,
+        "wires": [
+            [
+                "e611fef0fbbf60cc"
+            ]
+        ]
+    },
+    {
+        "id": "19ba06160bb5bb5b",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "query": "SELECT \n    (EXTRACT(DOW FROM activity_time) + 6) % 7 AS day_of_week,  -- Adjust to make Monday=0, Sunday=6\n    SUM(CASE WHEN activity_status = 0 THEN 1 ELSE 0 END) / 60.0 AS walking_time,  -- Total walking time in minutes\n    SUM(CASE WHEN activity_status = 1 THEN 1 ELSE 0 END) / 60.0 AS running_time   -- Total running time in minutes\nFROM \n    activity_table\nWHERE \n    EXTRACT(YEAR FROM activity_time) = EXTRACT(YEAR FROM CURRENT_DATE)  -- Filter for the current year\n    AND activity_time >= DATE_TRUNC('week', CURRENT_DATE + INTERVAL '1 day') - INTERVAL '1 day'  -- Start of the week (Monday)\n    AND activity_time < DATE_TRUNC('week', CURRENT_DATE + INTERVAL '1 day') + INTERVAL '6 days'  -- End of the week (Sunday)\nGROUP BY \n    (EXTRACT(DOW FROM activity_time) + 6) % 7  -- Adjust day-of-week indexing\nORDER BY \n    day_of_week;  -- Order by Monday=0, Sunday=6\n",
+        "postgreSQLConfig": "532cfb1b1d43ad19",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 370,
+        "y": 1140,
+        "wires": [
+            [
+                "60eb7847a87c5097",
+                "2f62e5f22016ddb2"
+            ]
+        ]
+    },
+    {
+        "id": "ac9c378a5f533575",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "query": "SELECT \n    EXTRACT(MONTH FROM activity_time) AS month,  -- Extract the month from the activity time\n    SUM(\n        CASE \n            WHEN activity_status = 0 THEN \n                ((0.035 * weight) + ((POWER(meters_per_second, 2) / height) * 0.029 * weight)) / 60\n            ELSE 0 \n        END\n    ) AS walking_calories,  -- Calculate and sum walking calories per minute\n    SUM(\n        CASE \n            WHEN activity_status = 1 THEN \n                ((0.035 * weight) + ((POWER(meters_per_second * 2, 2) / height) * 0.029 * weight)) / 60\n            ELSE 0 \n        END\n    ) AS running_calories   -- Calculate and sum running calories per minute\nFROM \n    activity_table\nWHERE \n    EXTRACT(YEAR FROM activity_time) = EXTRACT(YEAR FROM CURRENT_DATE)  -- Use the current year\nGROUP BY \n    EXTRACT(MONTH FROM activity_time)  -- Group by month\nORDER BY \n    month;  -- Order results by month\n",
+        "postgreSQLConfig": "532cfb1b1d43ad19",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 370,
+        "y": 900,
+        "wires": [
+            [
+                "f3cbfb9c432f5699"
+            ]
+        ]
+    },
+    {
+        "id": "9b60e111d950ea35",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "query": "SELECT \n    (EXTRACT(DOW FROM at.activity_time) + 6) % 7 AS day_of_week,  -- Adjust day index: 0=Monday, 6=Sunday\n    SUM(\n        CASE \n            WHEN at.activity_status = 0 THEN \n                ((0.035 * at.weight) + ((POWER(at.meters_per_second, 2) / at.height) * 0.029 * at.weight)) / 60  -- Walking calories per minute\n            ELSE 0 \n        END\n    ) AS walking_calories,  -- Sum of walking calories\n    SUM(\n        CASE \n            WHEN at.activity_status = 1 THEN \n                ((0.035 * at.weight) + ((POWER(at.meters_per_second * 2, 2) / at.height) * 0.029 * at.weight)) / 60  -- Running calories per minute\n            ELSE 0 \n        END\n    ) AS running_calories   -- Sum of running calories\nFROM \n    activity_table at\nWHERE \n    EXTRACT(YEAR FROM at.activity_time) = EXTRACT(YEAR FROM CURRENT_DATE)  -- Current year filter\n    AND at.activity_time >= DATE_TRUNC('week', CURRENT_DATE + INTERVAL '1 day') - INTERVAL '1 day'  -- Start of the week (Monday)\n    AND at.activity_time < DATE_TRUNC('week', CURRENT_DATE + INTERVAL '1 day') + INTERVAL '6 days'  -- End of the week (Sunday)\nGROUP BY \n    (EXTRACT(DOW FROM at.activity_time) + 6) % 7  -- Group by adjusted day index\nORDER BY \n    day_of_week;  -- Order by Monday (0) to Sunday (6)\n",
+        "postgreSQLConfig": "532cfb1b1d43ad19",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 370,
+        "y": 1220,
+        "wires": [
+            [
+                "d59640ea2235f044"
+            ]
+        ]
+    },
+    {
+        "id": "891762ba429bbd11",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "query": "SELECT \n    EXTRACT(MONTH FROM at.activity_time) AS month,  -- Extract month (1 = Jan, 12 = Dec)\n    SUM(\n        CASE \n            WHEN at.activity_status = 0 THEN at.meters_per_second  -- Walking distance in meters/second\n            ELSE 0 \n        END\n    ) AS walking_distance,  -- Total walking distance\n    SUM(\n        CASE \n            WHEN at.activity_status = 1 THEN at.meters_per_second  -- Running distance in meters/second\n            ELSE 0 \n        END\n    ) AS running_distance   -- Total running distance\nFROM \n    activity_table at\nWHERE \n    EXTRACT(YEAR FROM at.activity_time) = EXTRACT(YEAR FROM CURRENT_DATE)  -- Current year dynamically\nGROUP BY \n    EXTRACT(MONTH FROM at.activity_time)  -- Group by month (1-12)\nORDER BY \n    month;  -- Order by month (Jan = 1, Dec = 12)\n",
+        "postgreSQLConfig": "532cfb1b1d43ad19",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 370,
+        "y": 1020,
+        "wires": [
+            [
+                "0b05e576ada4a180"
+            ]
+        ]
+    },
+    {
+        "id": "66638caf809fcd68",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "query": "SELECT \n    (EXTRACT(DOW FROM at.activity_time) + 6) % 7 AS day_of_week,  -- Adjust day index (0=Monday, 6=Sunday)\n    SUM(\n        CASE \n            WHEN at.activity_status = 0 THEN at.meters_per_second  -- Walking distance in meters/second\n            ELSE 0 \n        END\n    ) AS walking_distance,  -- Total walking distance\n    SUM(\n        CASE \n            WHEN at.activity_status = 1 THEN at.meters_per_second  -- Running distance in meters/second\n            ELSE 0 \n        END\n    ) AS running_distance   -- Total running distance\nFROM \n    activity_table at\nWHERE \n    EXTRACT(WEEK FROM at.activity_time) = EXTRACT(WEEK FROM CURRENT_DATE)  -- Filter for current week\n    AND EXTRACT(YEAR FROM at.activity_time) = EXTRACT(YEAR FROM CURRENT_DATE)  -- Current year dynamically\nGROUP BY \n    (EXTRACT(DOW FROM at.activity_time) + 6) % 7  -- Group by day of the week (0=Monday, 6=Sunday)\nORDER BY \n    day_of_week;  -- Order by day of the week (Monday = 0, Sunday = 6)\n",
+        "postgreSQLConfig": "532cfb1b1d43ad19",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 370,
+        "y": 1080,
+        "wires": [
+            [
+                "990a07419a3d1314"
+            ]
+        ]
+    },
+    {
+        "id": "0e4e19045fc1865d",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "query": "SELECT \n    weight\nFROM \n    user_info;\n",
+        "postgreSQLConfig": "532cfb1b1d43ad19",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 370,
+        "y": 1540,
+        "wires": [
+            [
+                "7dacd6c76fd1e410"
+            ]
+        ]
+    },
+    {
+        "id": "7dacd6c76fd1e410",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "getWeight",
+        "func": "let rows = msg.payload;\n\nvar weight = rows[0].weight\n\nmsg.payload = weight\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 1540,
+        "wires": [
+            [
+                "f3c2135f5ea9820c"
+            ]
+        ]
+    },
+    {
+        "id": "3db1566a76e60b5a",
+        "type": "http request",
+        "z": "f6f2187d.f17ca8",
+        "name": "Predict Service",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://app:8000/predict",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 420,
+        "y": 680,
+        "wires": [
+            [
+                "3411e3532f9facbc"
+            ]
+        ]
+    },
+    {
+        "id": "3411e3532f9facbc",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 4",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "094f6fc509e49422",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "query": "SELECT \n    EXTRACT(HOUR FROM at.activity_time) AS hour_of_day,  -- Extract the hour of the day (0-23)\n    SUM(\n        CASE \n            WHEN at.activity_status = 0 THEN at.meters_per_second  -- Walking distance in meters/second\n            ELSE 0 \n        END\n    ) AS walking_distance,  -- Total walking distance\n    SUM(\n        CASE \n            WHEN at.activity_status = 1 THEN at.meters_per_second  -- Running distance in meters/second\n            ELSE 0 \n        END\n    ) AS running_distance   -- Total running distance\nFROM \n    activity_table at\nWHERE \n    at.activity_time::date = CURRENT_DATE  -- Filter for today's date\nGROUP BY \n    EXTRACT(HOUR FROM at.activity_time)  -- Group by hour of the day (0-23)\nORDER BY \n    hour_of_day;  -- Order by hour of the day (0-23)\n",
+        "postgreSQLConfig": "532cfb1b1d43ad19",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 370,
+        "y": 1280,
+        "wires": [
+            [
+                "b6a946a8b4f3cf66",
+                "543f71cf7a6990d4"
+            ]
+        ]
+    },
+    {
+        "id": "dd167814a1941b56",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "query": "SELECT \n    EXTRACT(DOW FROM activity_time) AS day_of_week,  -- Extract the day of the week (0=Sunday, 6=Saturday)\n    SUM(CASE WHEN activity_status = 0 THEN 1 ELSE 0 END) / 60.0 AS walking_time,  -- Count of walking events (activity_status = 0), divided by 60 for minutes\n    SUM(CASE WHEN activity_status = 1 THEN 1 ELSE 0 END) / 60.0 AS running_time   -- Count of running events (activity_status = 1), divided by 60 for minutes\nFROM \n    activity_table\nWHERE \n    EXTRACT(YEAR FROM activity_time) = EXTRACT(YEAR FROM CURRENT_DATE)  -- Use the current year dynamically\n    AND activity_time >= CURRENT_DATE  -- Start of today (00:00:00)\n    AND activity_time < CURRENT_DATE + INTERVAL '1 day'  -- End of today (23:59:59)\nGROUP BY \n    EXTRACT(DOW FROM activity_time)  -- Group by day of the week (0=Sunday, 6=Saturday)\nORDER BY \n    day_of_week;  -- Order results by day of the week (Sunday=0, Saturday=6)\n",
+        "postgreSQLConfig": "532cfb1b1d43ad19",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 370,
+        "y": 1360,
+        "wires": [
+            [
+                "853dc7efcf032694"
+            ]
+        ]
+    },
+    {
+        "id": "0a615a2e5630831c",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "query": "SELECT \n    SUM(\n        CASE \n            WHEN at.activity_status = 0 THEN \n                ((0.035 * at.weight) + ((POWER(at.meters_per_second, 2) / at.height) * 0.029 * at.weight)) / 60  -- Walking calories per minute\n            ELSE 0 \n        END\n    ) AS walking_calories,  -- Total walking calories for today\n    SUM(\n        CASE \n            WHEN at.activity_status = 1 THEN \n                ((0.035 * at.weight) + ((POWER(at.meters_per_second * 2, 2) / at.height) * 0.029 * at.weight)) / 60  -- Running calories per minute\n            ELSE 0 \n        END\n    ) AS running_calories   -- Total running calories for today\nFROM \n    activity_table at\nWHERE \n    EXTRACT(YEAR FROM at.activity_time) = EXTRACT(YEAR FROM CURRENT_DATE)  -- Use the current year dynamically\n    AND at.activity_time >= CURRENT_DATE  -- Start of today (00:00:00)\n    AND at.activity_time < CURRENT_DATE + INTERVAL '1 day'  -- End of today (23:59:59)\n",
+        "postgreSQLConfig": "532cfb1b1d43ad19",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 370,
+        "y": 1420,
+        "wires": [
+            [
+                "68f56d9febaee0ac"
+            ]
+        ]
+    },
+    {
+        "id": "68f56d9febaee0ac",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "GetCaloriesToday",
+        "func": "// Assuming msg.payload contains the results of the SQL query with walking_calories and running_calories\nlet walkingCalories = 0;\nlet runningCalories = 0;\n\n// Check if calories data is present and extract the values\nif (msg.payload && msg.payload.length > 0) {\n    walkingCalories = msg.payload[0].walking_calories || 0;\n    runningCalories = msg.payload[0].running_calories || 0;\n}\n\n// Sum of walking and running calories\nlet totalCalories = walkingCalories + runningCalories;\n\n// Round the total calories to the nearest integer\ntotalCalories = Math.round(totalCalories);\n\n// Set the totalCalories as the payload to return\nmsg.payload = totalCalories;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 1420,
+        "wires": [
+            [
+                "e69e3eb13c8fb698"
+            ]
+        ]
+    },
+    {
+        "id": "543f71cf7a6990d4",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "getSumDistanceToday",
+        "func": "// Assuming msg.payload contains the query results as an array of rows\nlet walkingDistance = 0;\nlet runningDistance = 0;\n\n// Loop through query results to sum distances for walking and running\nmsg.payload.forEach(row => {\n    walkingDistance += row.walking_distance || 0;\n    runningDistance += row.running_distance || 0;\n});\n\n// Format the output with the summed distances for today\nmsg.payload = walkingDistance + runningDistance;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 640,
+        "y": 1320,
+        "wires": [
+            [
+                "5d4a5e2c391ed22e"
+            ]
+        ]
+    },
+    {
+        "id": "858cfe0b2045a571",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "query": "SELECT \n    meters_per_second\nFROM \n    activity_table\nORDER BY \n    activity_time DESC  -- Order by the most recent activity time\nLIMIT 1;  -- Only return the newest row\n",
+        "postgreSQLConfig": "532cfb1b1d43ad19",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 370,
+        "y": 1480,
+        "wires": [
+            [
+                "918dbca7ce537cee"
+            ]
+        ]
+    },
+    {
+        "id": "918dbca7ce537cee",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "GetVelocity",
+        "func": "// Assuming the query result comes in msg.payload as an array with the first row being the result\nlet metersPerSecond = msg.payload[0].meters_per_second || 0;  // Get meters_per_second from the first result or default to 0\n\n// Create a response payload with the meters_per_second value\nmsg.payload = metersPerSecond\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 1480,
+        "wires": [
+            [
+                "1e18373f3308c41b"
+            ]
+        ]
+    },
+    {
+        "id": "172f405a2e808093",
+        "type": "ui_form",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "label": "",
+        "group": "c2969b15314cd74c",
+        "order": 17,
+        "width": 8,
+        "height": 1,
+        "options": [
+            {
+                "label": "Week",
+                "value": "week",
+                "type": "date",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "week": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 130,
+        "y": 1620,
+        "wires": [
+            [
+                "b3884c59d6c49c38"
+            ]
+        ]
+    },
+    {
+        "id": "b3884c59d6c49c38",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "GetFormatedData",
+        "func": "// Assuming the payload is an object with the 'week' key\nlet inputDate = msg.payload.week; // \"2024-11-20T00:00:00.000Z\"\n\n// Ensure inputDate is a string before using Date\nif (typeof inputDate !== 'string') {\n    inputDate = inputDate.toString();  // Convert to string if necessary\n}\n\n// Convert the string to a Date object\nlet dateObject = new Date(inputDate);\n\n// Extract the date portion (YYYY-MM-DD) for PostgreSQL DATE format\nlet formattedDate = dateObject.toISOString().split('T')[0]; // \"YYYY-MM-DD\"\n\n// Set the formatted date in the message payload\nmsg.payload = formattedDate;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 1620,
+        "wires": [
+            [
+                "42edcb1d058fd03a",
+                "6ddffabfb1786f36"
+            ]
+        ]
+    },
+    {
+        "id": "f8aa5b828e3f7992",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "query": "SELECT \n    (EXTRACT(DOW FROM activity_time) + 6) % 7 AS day_of_week,  \n    SUM(CASE WHEN activity_status = 0 THEN 1 ELSE 0 END) / 60.0 AS walking_time,  \n    SUM(CASE WHEN activity_status = 1 THEN 1 ELSE 0 END) / 60.0 AS running_time   \nFROM \n    activity_table\nWHERE \n    EXTRACT(YEAR FROM activity_time) = EXTRACT(YEAR FROM '{{msg.payload}}'::DATE)  \n    AND activity_time >= DATE_TRUNC('week', '{{msg.payload}}'::DATE + INTERVAL '1 day') - INTERVAL '1 day'  \n    AND activity_time < DATE_TRUNC('week', '{{msg.payload}}'::DATE + INTERVAL '1 day') + INTERVAL '6 days'  \nGROUP BY \n    (EXTRACT(DOW FROM activity_time) + 6) % 7  \nORDER BY \n    day_of_week;",
+        "postgreSQLConfig": "532cfb1b1d43ad19",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 90,
+        "y": 1880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fa3831b1f1bb34c5",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "function 3",
+        "func": "// Arrays from the input\nlet walkingData1 = msg.payload; // Walking data from the first message\nlet walkingData2 = msg.topic;   // Walking data from the second message\n\nmsg.payload = [walkingData1,walkingData2]\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 1880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "42edcb1d058fd03a",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "query": "SELECT \n    COALESCE(s.day_of_week_selected, c.day_of_week_current) AS day_of_week,\n    s.walking_time_selected,\n    c.walking_time_current,\n    s.running_time_selected,\n    c.running_time_current\nFROM\n    (\n        SELECT \n            (EXTRACT(DOW FROM activity_time) + 6) % 7 AS day_of_week_selected,  \n            SUM(CASE WHEN activity_status = 0 THEN 1 ELSE 0 END) / 60.0 AS walking_time_selected,\n            SUM(CASE WHEN activity_status = 1 THEN 1 ELSE 0 END) / 60.0 AS running_time_selected\n        FROM \n            activity_table\n        WHERE \n            EXTRACT(YEAR FROM activity_time) = EXTRACT(YEAR FROM '{{msg.payload}}'::DATE)  \n            AND activity_time >= DATE_TRUNC('week', '{{msg.payload}}'::DATE + INTERVAL '1 day') - INTERVAL '1 day'  \n            AND activity_time < DATE_TRUNC('week', '{{msg.payload}}'::DATE + INTERVAL '1 day') + INTERVAL '6 days'  \n        GROUP BY \n            (EXTRACT(DOW FROM activity_time) + 6) % 7\n    ) s\nFULL OUTER JOIN\n    (\n        SELECT \n            (EXTRACT(DOW FROM activity_time) + 6) % 7 AS day_of_week_current,\n            SUM(CASE WHEN activity_status = 0 THEN 1 ELSE 0 END) / 60.0 AS walking_time_current,\n            SUM(CASE WHEN activity_status = 1 THEN 1 ELSE 0 END) / 60.0 AS running_time_current\n        FROM \n            activity_table\n        WHERE \n            EXTRACT(YEAR FROM activity_time) = EXTRACT(YEAR FROM CURRENT_DATE)\n            AND activity_time >= DATE_TRUNC('week', CURRENT_DATE + INTERVAL '1 day') - INTERVAL '1 day'\n            AND activity_time < DATE_TRUNC('week', CURRENT_DATE + INTERVAL '1 day') + INTERVAL '6 days'\n        GROUP BY \n            (EXTRACT(DOW FROM activity_time) + 6) % 7\n    ) c\nON s.day_of_week_selected = c.day_of_week_current\nORDER BY day_of_week;\n",
+        "postgreSQLConfig": "532cfb1b1d43ad19",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 530,
+        "y": 1620,
+        "wires": [
+            [
+                "85a1ffc8ae79d629"
+            ]
+        ]
+    },
+    {
+        "id": "85a1ffc8ae79d629",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "GetWeekCompData",
+        "func": "// Extract the payload data\nlet data = msg.payload;\n\n// Initialize arrays for each line (4 lines: walking selected, walking current, running selected, running current)\nlet daysOfWeek = [\n    \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\", \"Sunday\"\n];\nlet walkingTimeSelected = new Array(7).fill(0); // Initialize all days to 0\nlet walkingTimeCurrent = new Array(7).fill(0);\nlet runningTimeSelected = new Array(7).fill(0);\nlet runningTimeCurrent = new Array(7).fill(0);\n\n// Iterate through the data to fill the arrays\nfor (let i = 0; i < data.length; i++) {\n    // Get the day index (0-based)\n    let dayIndex = parseInt(data[i].day_of_week) - 1; // Assuming day_of_week is 1 for Monday, 7 for Sunday\n\n    // Update the arrays with the respective time values if available\n    if (data[i].walking_time_selected !== null && data[i].walking_time_selected !== undefined) {\n        walkingTimeSelected[dayIndex] = parseFloat(data[i].walking_time_selected);\n    }\n    if (data[i].walking_time_current !== null && data[i].walking_time_current !== undefined) {\n        walkingTimeCurrent[dayIndex] = parseFloat(data[i].walking_time_current);\n    }\n    if (data[i].running_time_selected !== null && data[i].running_time_selected !== undefined) {\n        runningTimeSelected[dayIndex] = parseFloat(data[i].running_time_selected);\n    }\n    if (data[i].running_time_current !== null && data[i].running_time_current !== undefined) {\n        runningTimeCurrent[dayIndex] = parseFloat(data[i].running_time_current);\n    }\n}\n\n// Prepare the chart data structure for output\nmsg.payload = [{\n    \"series\": [\"Walking Time Selected\", \"Running Time Selected\", \"Walking Time Current\", \"Running Time Current\"], // The four categories\n    \"data\": [\n        walkingTimeSelected, // Walking time for selected week\n        runningTimeSelected, // Running time for selected week\n        walkingTimeCurrent,  // Walking time for current week\n        runningTimeCurrent   // Running time for current week\n    ],\n    \"labels\": daysOfWeek // Days of the week (Monday to Sunday)\n}];\n\n// Return the message with the new structure\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 1620,
+        "wires": [
+            [
+                "db5414d6661f2b74"
+            ]
+        ]
+    },
+    {
+        "id": "db5414d6661f2b74",
+        "type": "ui_chart",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "c2969b15314cd74c",
+        "order": 19,
+        "width": 10,
+        "height": 5,
+        "label": "Week Comparison",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "7",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 950,
+        "y": 1620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6ddffabfb1786f36",
+        "type": "postgresql",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "query": "SELECT \n    COALESCE(s.month_selected, c.month_current) AS month,\n    s.walking_time_selected,\n    c.walking_time_current,\n    s.running_time_selected,\n    c.running_time_current\nFROM\n    (\n        SELECT \n            EXTRACT(MONTH FROM activity_time) AS month_selected,\n            SUM(CASE WHEN activity_status = 0 THEN 1 ELSE 0 END) / 60.0 AS walking_time_selected,\n            SUM(CASE WHEN activity_status = 1 THEN 1 ELSE 0 END) / 60.0 AS running_time_selected\n        FROM \n            activity_table\n        WHERE \n            EXTRACT(YEAR FROM activity_time) = EXTRACT(YEAR FROM '{{msg.payload}}'::DATE)\n        GROUP BY \n            EXTRACT(MONTH FROM activity_time)\n    ) s\nFULL OUTER JOIN\n    (\n        SELECT \n            EXTRACT(MONTH FROM activity_time) AS month_current,\n            SUM(CASE WHEN activity_status = 0 THEN 1 ELSE 0 END) / 60.0 AS walking_time_current,\n            SUM(CASE WHEN activity_status = 1 THEN 1 ELSE 0 END) / 60.0 AS running_time_current\n        FROM \n            activity_table\n        WHERE \n            EXTRACT(YEAR FROM activity_time) = EXTRACT(YEAR FROM CURRENT_DATE)\n        GROUP BY \n            EXTRACT(MONTH FROM activity_time)\n    ) c\nON s.month_selected = c.month_current\nORDER BY \n    month;\n",
+        "postgreSQLConfig": "532cfb1b1d43ad19",
+        "split": false,
+        "rowsPerMsg": 1,
+        "outputs": 1,
+        "x": 530,
+        "y": 1700,
+        "wires": [
+            [
+                "7f48b2e5f0d4f8cb"
+            ]
+        ]
+    },
+    {
+        "id": "7f48b2e5f0d4f8cb",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "GetYearCompData",
+        "func": "// Extract the payload data\nlet data = msg.payload;\n\n// Initialize arrays for each line (4 lines: walking selected, walking current, running selected, running current)\nlet months = [\n    \"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n    \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n];\n\nlet walkingTimeSelected = new Array(12).fill(0); // Initialize all months to 0\nlet walkingTimeCurrent = new Array(12).fill(0);\nlet runningTimeSelected = new Array(12).fill(0);\nlet runningTimeCurrent = new Array(12).fill(0);\n\n// Iterate through the data to fill the arrays\nfor (let i = 0; i < data.length; i++) {\n    // Get the month index (0-based)\n    let monthIndex = parseInt(data[i].month) - 1;\n\n    // Update the arrays with the respective time values if available\n    if (data[i].walking_time_selected !== null && data[i].walking_time_selected !== undefined) {\n        walkingTimeSelected[monthIndex] = parseFloat(data[i].walking_time_selected);\n    }\n    if (data[i].walking_time_current !== null && data[i].walking_time_current !== undefined) {\n        walkingTimeCurrent[monthIndex] = parseFloat(data[i].walking_time_current);\n    }\n    if (data[i].running_time_selected !== null && data[i].running_time_selected !== undefined) {\n        runningTimeSelected[monthIndex] = parseFloat(data[i].running_time_selected);\n    }\n    if (data[i].running_time_current !== null && data[i].running_time_current !== undefined) {\n        runningTimeCurrent[monthIndex] = parseFloat(data[i].running_time_current);\n    }\n}\n\n// Prepare the chart data structure for output\nmsg.payload = [{\n    \"series\": [\"Walking Time Selected\", \"Running Time Selected\", \"Walking Time Current\", \"Running Time Current\"], // Categories\n    \"data\": [\n        walkingTimeSelected, // Walking time for selected year\n        runningTimeSelected, // Running time for selected year\n        walkingTimeCurrent,  // Walking time for current year\n        runningTimeCurrent   // Running time for current year\n    ],\n    \"labels\": months // Months in order\n}];\n\n// Return the message with the new structure\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 1700,
+        "wires": [
+            [
+                "e44e5fe017f5d0d0"
+            ]
+        ]
+    },
+    {
+        "id": "e44e5fe017f5d0d0",
+        "type": "ui_chart",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "5f7393e20bbc7adb",
+        "order": 6,
+        "width": 8,
+        "height": 5,
+        "label": "Year Comparison",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "auto",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 950,
+        "y": 1700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7ebf82088df6350c",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "GetCurrentObjective",
+        "func": "let walkingTime = msg.payload.data[0]\nlet runningTime = msg.payload.data[1]\n\nlet totalActivityTimes = (walkingTime) + ((runningTime) * 3);\n\n\n// Combined threshold: 30 minutes walking + 10 minutes running per day * 7 days\nlet combinedThreshold = msg.payload.threshold;\n\n// Determine if user is active\nlet isActive = totalActivityTimes >= combinedThreshold;\n\nif (isActive){\n    msg.payload = \"Objective Complete\"\n}else{\n    msg.payload = \"Objective Incomplete\"\n}    \nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 1200,
+        "wires": [
+            [
+                "9b0ac635a003c3ad"
+            ]
+        ]
+    },
+    {
+        "id": "9b0ac635a003c3ad",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "c2969b15314cd74c",
+        "order": 1,
+        "width": 10,
+        "height": 1,
+        "name": "",
+        "label": "Current Objective",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1210,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "e0e89acec5ea819c",
+        "type": "ui_numeric",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "label": "Week objective",
+        "tooltip": "",
+        "group": "5f7393e20bbc7adb",
+        "order": 1,
+        "width": 8,
+        "height": 1,
+        "wrap": false,
+        "passthru": true,
+        "topic": "threshold",
+        "topicType": "str",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "1",
+        "step": 1,
+        "className": "",
+        "x": 620,
+        "y": 1160,
+        "wires": [
+            [
+                "e63c599843c5f46d"
+            ]
+        ]
+    },
+    {
+        "id": "2f62e5f22016ddb2",
+        "type": "function",
+        "z": "f6f2187d.f17ca8",
+        "name": "Data",
+        "func": "let walkingTimes = new Array(7).fill(0);  // Initialize times for 7 days (Monday-Sunday)\nlet runningTimes = new Array(7).fill(0);  // Initialize times for 7 days (Monday-Sunday)\n\n// Process query results\nmsg.payload.forEach(row => {\n    let dayIndex = parseInt(row.day_of_week);  // Directly use the day_of_week from the query\n    walkingTimes[dayIndex] += parseFloat(row.walking_time) || 0;\n    runningTimes[dayIndex] += parseFloat(row.running_time) || 0;\n});\n\nlet totalWalkingTime = walkingTimes.reduce((sum, time) => sum + time, 0);\nlet totalRunningTime = runningTimes.reduce((sum, time) => sum + time, 0);\n\nmsg.payload = [totalWalkingTime,totalRunningTime]\n\nmsg.topic = \"data\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 1200,
+        "wires": [
+            [
+                "e63c599843c5f46d"
+            ]
+        ]
+    },
+    {
+        "id": "e63c599843c5f46d",
+        "type": "join",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 750,
+        "y": 1200,
+        "wires": [
+            [
+                "7ebf82088df6350c"
+            ]
+        ]
+    },
+    {
+        "id": "1e18373f3308c41b",
+        "type": "ui_gauge",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "group": "e9c37ed216a74dda",
+        "order": 31,
+        "width": 4,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Velocity",
+        "label": "m/s",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "5",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 850,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "05e5d46a7c2fd5b6",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1230,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "ff545fcd8eccb44a",
+        "type": "inject",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "props": [],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 150,
+        "y": 1200,
+        "wires": [
+            [
+                "e0e89acec5ea819c"
+            ]
+        ]
+    }
+]

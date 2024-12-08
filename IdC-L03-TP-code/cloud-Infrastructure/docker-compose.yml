@@ -1,0 +1,70 @@
+################################################################################
+# IdC Compose with PostgreSQL
+################################################################################
+version: "3.8"
+
+services:
+  node-red:
+    image: nodered/node-red:latest
+    container_name: node-red
+    environment:
+      - TZ=Europe/Portugal
+    ports:
+      - 1880:1880
+    networks:
+      idc-net:
+        ipv4_address: 172.100.10.15
+    volumes:
+      - ./data/node-red-data:/data
+      - ./certs:/certs
+
+  mosquitto:
+    image: eclipse-mosquitto:latest
+    container_name: mosquitto
+    ports:
+      - 1883:1883
+      - 8883:8883
+      - 9001:9001
+    volumes:
+      - ./data/mosquitto-data/config:/mosquitto/config
+      - ./data/mosquitto-data/data:/mosquitto/data
+      - ./data/mosquitto-data/log:/mosquitto/log
+      - ./data/mosquitto-data/certs:/mosquitto
+    networks:
+      idc-net:
+        ipv4_address: 172.100.10.10
+
+  web:
+    build: ./data/app-data/
+    container_name: app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+    networks:
+      idc-net:
+        ipv4_address: 172.100.10.14
+
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: internetOfThings
+    ports:
+      - 5432:5432
+    volumes:
+      - ./data/postgres-data:/var/lib/postgresql/data
+      - ./certs:/certs
+    networks:
+      idc-net:
+        ipv4_address: 172.100.10.20
+
+networks:
+  idc-net:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.100.10.0/24

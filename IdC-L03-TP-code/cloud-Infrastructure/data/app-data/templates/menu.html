@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .menu-item {
+            display: block;
+            padding: 10px;
+            margin: 10px 0;
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            background-color: #eaeaea;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .menu-item:hover {
+            background-color: #dcdcdc;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Menu</h1>
+    <a href="/updateUser" class="menu-item">Update User Information</a>
+    <a href="https://0.0.0.0:1880/ui" class="menu-item" target="_blank">Node-RED Dashboard</a>
+</div>
+
+</body>
+</html>

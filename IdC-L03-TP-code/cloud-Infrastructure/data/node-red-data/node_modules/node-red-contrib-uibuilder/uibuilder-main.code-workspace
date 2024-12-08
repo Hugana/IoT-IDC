@@ -1,0 +1,69 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "node_modules\\@types"
+		},
+		{
+			"path": "..\\uibRoot"
+		},
+		{
+			"path": "../nr-source"
+		}
+	],
+	"settings": {
+		"eslint.alwaysShowStatus": true,
+		"eslint.workingDirectories": [ "./", "./src/editor" ],
+		"plantuml.exportFormat": "svg",
+		"plantuml.exportOutDir": "docs/diagrams",
+		"plantuml.exportSubFolder": false,
+		"plantuml.diagramsRoot": "docs/diagrams",
+		"plantuml.render": "PlantUMLServer",
+		"plantuml.server": "https://www.plantuml.com/plantuml",
+		"mermaid.sequence": {
+			"showSequenceNumbers": true
+		},
+		"html.customData": [
+			"/src/web-components/vscode-descriptors/ti-web-components.html-data.json"
+		],
+		"githubPullRequests.ignoredPullRequestBranches": [
+			"main"
+		],
+		"cSpell.words": [
+			"descr",
+			"Docksify",
+			"docsify",
+			"Docsify",
+			"execa",
+			"fext",
+			"fldrname",
+			"fparts",
+			"fslib",
+			"ftype",
+			"sonarjs",
+			"tilib",
+			"Twemoji",
+			"uiblib",
+			"uibnpmmanage",
+			"uibrouter",
+			"uibuilderfe",
+			"webjs"
+		]
+	},
+	"launch": {
+		"configurations": [
+			{
+				"type": "msedge",
+				"name": "uibuilder /bookmarks/",
+				"request": "launch",
+				"url": "http://red.localhost:3001/bookmarks/",
+				"webRoot": "D:/src/uibRoot/src",
+				"pathMapping": {
+					"../uibuilder/": "${workspaceFolder}/front-end"
+				}
+			}
+		]
+	}
+}

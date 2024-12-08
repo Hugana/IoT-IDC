@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>User Information</title>
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    }
+
+    /* Container */
+    .container {
+    background: #fff;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Heading */
+    h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    }
+
+    /* Form Labels */
+    form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+    }
+
+    /* Form Inputs and Select */
+    form input[type="text"],
+    form input[type="number"],
+    form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    transition: border-color 0.3s;
+    }
+
+    form input[type="text"]:focus,
+    form input[type="number"]:focus,
+    form select:focus {
+    border-color: #007bff;
+    outline: none;
+    }
+
+    /* Submit Button */
+    form input[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    }
+
+    form input[type="submit"]:hover {
+    background-color: #0056b3;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>User Information</h2>
+        <form action="/updateUser" method="POST">
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" required>
+
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="0" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" name="weight" step="0.1" min="0" required>
+
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" name="height" step="0.1" min="0" required>
+
+            <input type="submit" value="Submit">
+        </form>
+        <a href="/menu" class="button">Return to Menu</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+    "name": "node-red-project",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "@flexdash/node-red-fd-corewidgets": "~0.4.64",
+        "@flexdash/node-red-fd-testnodes": "~0.0.6",
+        "cn-dashboard-nodes": "~0.0.2",
+        "msg": "^1.0.0",
+        "node-red-contrib-cpu": "~0.0.4",
+        "node-red-contrib-machine-learning-v2": "~1.0.9",
+        "node-red-contrib-postgresql": "~0.14.2",
+        "node-red-contrib-uibuilder": "~7.0.4",
+        "node-red-dashboard": "~3.6.5",
+        "node-red-node-random": "~0.4.1"
+    }
+}
